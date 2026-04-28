@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'SouthPark';
+	src: url('southpark.ttf')
+}
+
+h1 {
+	font-size: 75px;
+	color: darkBlue;
+	text-align: center;
+	font-family: 'SouthPark', sans-serif;
+}
+
+.Intro {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'SouthPark', sans-serif;
+	margin-bottom: 50px;
+}
+
+
+
+.SPRLOGO {
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 450px;
+	border-radius: 30px;
+}
+
+.IASLOGO {
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 850px;
+	border-radius: 30px;
+}
+
+.RAGGLOGO {
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 1250px;
+	border-radius: 30px;
+}
+
+
+
+.SPText {
+	position: absolute;
+	top: 430px;
+	left: 370px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'SouthPark', sans-serif;
+	letter-spacing: 1px;
+}
+
+.SPInfo {
+	position: absolute;
+	top: 480px;
+	left: 370px;
+	font-size: 32px;
+}
+
+.IASText {
+	position: absolute;
+	top: 830px;
+	left: 370px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'SouthPark', sans-serif;
+	letter-spacing: 1px;
+}
+
+.IASInfo {
+	position: absolute;
+	top: 880px;
+	left: 370px;
+	font-size: 32px;
+}
+
+.RAGGText {
+	position: absolute;
+	top: 1230px;
+	left: 370px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'SouthPark', sans-serif;
+	letter-spacing: 1px;
+}
+
+.RAGGInfo {
+	position: absolute;
+	top: 1280px;
+	left: 370px;
+	font-size: 32px;
+}
+
+
+
+.SPLink {
+	display: inline-block;
+	position: absolute;
+	background-color: orange;
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	top: 690px;
+	left: 365px;
+	border-radius: 35px;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.SPLink:hover {
+	transform: scale(1.05);
+}
+.SPLink:active {
+	transform: scale(0.97);
+}
+
+.IASLink {
+	display: inline-block;
+	position: absolute;
+	background-color: gold;
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	top: 1090px;
+	left: 365px;
+	border-radius: 35px;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.IASLink:hover {
+	transform: scale(1.05);
+}
+.IASLink:active {
+	transform: scale(0.97);
+}
+
+.RAGGLink {
+	display: inline-block;
+	position: absolute;
+	background-color: lightblue;
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	top: 1490px;
+	left: 370px;
+	border-radius: 35px;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.RAGGLink:hover {
+	transform: scale(1.05);
+}
+.RAGGLink:active {
+	transform: scale(0.97);
+}
+
+
+
+
+.madeby {
+	position: absolute;
+	top: 186px;
+	left: 325px;
+	text-align: center;
+	font-family: 'SouthPark', sans-serif;
+	font-size: 32px;
+}
+

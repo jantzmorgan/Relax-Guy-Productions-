@@ -1,0 +1,219 @@
+@font-face {
+	font-family: 'SouthPark';
+	src: url('southpark.ttf');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	color: #111;
+	background:
+		linear-gradient(#9edfff 0 170px, transparent 170px),
+		linear-gradient(180deg, #e8f8ff, #ffffff 45%, #dff4ff);
+}
+
+/* snowy hills */
+body::before {
+	content: "";
+	position: fixed;
+	top: 120px;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	background:
+		radial-gradient(circle at 20% 100%, white 0 70px, transparent 72px),
+		radial-gradient(circle at 55% 100%, white 0 85px, transparent 87px),
+		radial-gradient(circle at 90% 100%, white 0 65px, transparent 67px);
+	z-index: -1;
+}
+
+.phoneApp {
+	width: 100%;
+	max-width: 460px;
+	margin: 0 auto;
+	padding: 18px 14px 35px;
+}
+
+.appHeader {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	background: rgba(255, 255, 255, 0.92);
+	border: 3px solid #111;
+	border-radius: 28px;
+	padding: 14px;
+	box-shadow: 0 6px 0 #111;
+	margin-bottom: 18px;
+}
+
+.appIcon {
+	width: 105px;
+	height: 105px;
+	object-fit: cover;
+	border-radius: 24px;
+	border: 3px solid #111;
+}
+
+h1,
+h2,
+.byline,
+.quoteBubble {
+	font-family: 'SouthPark', sans-serif;
+}
+
+h1 {
+	font-size: 29px;
+	line-height: 0.95;
+	letter-spacing: 0.5px;
+	margin: 0;
+}
+
+.byline {
+	font-size: 15px;
+	margin: 8px 0 0;
+	color: #1741a6;
+}
+
+.quoteBubble {
+	background: white;
+	border: 3px solid #111;
+	border-radius: 24px;
+	padding: 16px;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.15;
+	text-align: center;
+	box-shadow: 0 5px 0 #111;
+	margin-bottom: 20px;
+}
+
+.appCard {
+	display: flex;
+	gap: 13px;
+	align-items: center;
+	border: 3px solid #111;
+	border-radius: 28px;
+	padding: 12px;
+	margin-bottom: 16px;
+	background: white;
+	box-shadow: 0 6px 0 #111;
+}
+
+.orangeCard {
+	background: #fff4dd;
+}
+
+.yellowCard {
+	background: #fff8c9;
+}
+
+.blueCard {
+	background: #e7f7ff;
+}
+
+.cardIcon {
+	width: 118px;
+	height: 118px;
+	object-fit: cover;
+	border-radius: 24px;
+	border: 3px solid #111;
+	flex-shrink: 0;
+}
+
+.cardInfo {
+	flex: 1;
+}
+
+h2 {
+	font-size: 21px;
+	line-height: 1;
+	letter-spacing: 0.4px;
+	margin: 0 0 8px;
+}
+
+.cardInfo p {
+	font-size: 15px;
+	line-height: 1.2;
+	margin: 0 0 10px;
+}
+
+.appButton {
+	display: inline-block;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 13px;
+	border: 2px solid #111;
+	border-radius: 999px;
+	text-decoration: none;
+	box-shadow: 0 3px 0 #111;
+	transition: all 0.15s ease;
+}
+
+.appButton:active {
+	transform: translateY(3px);
+	box-shadow: 0 1px 0 #111;
+}
+
+.spButton {
+	background: orange;
+}
+
+.sunnyButton {
+	background: gold;
+}
+
+.golfButton {
+	background: lightblue;
+}
+
+@media (max-width: 360px) {
+	.appIcon {
+		width: 90px;
+		height: 90px;
+	}
+
+	h1 {
+		font-size: 20px;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+
+	.cardIcon {
+		width: 102px;
+		height: 102px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.cardInfo p {
+		font-size: 14px;
+	}
+
+	.chudButton {
+		background: #00e676;
+		/* neon green vibe */
+		color: black;
+	}
+
+	.chudCard {
+		background: #e8ffe8;
+		/* subtle green tint */
+	}
+}
+
+.redCard {
+	background: #ffeaea;
+	/* subtle red tint */
+}
+
+.jantzButton {
+	background: #ff2a2a;
+	/* neon red vibe */
+	color: white;
+}
